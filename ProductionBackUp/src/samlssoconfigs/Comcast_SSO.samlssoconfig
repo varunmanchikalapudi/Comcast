@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributeName>COMCAST_GUID</attributeName>
+    <identityLocation>Attribute</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>sso.cable.comcast.com</issuer>
+    <loginUrl>https://entidpext.cable.comcast.com/idp/SSO.saml2</loginUrl>
+    <logoutUrl>https://extsso.cable.comcast.com/unprotect/logout/logout.asp?continue=https://entidpext.cable.comcast.com/idp/startSSO.ping?PartnerSpId=https://comcastbusiness.my.salesforce.com</logoutUrl>
+    <name>Comcast SSO</name>
+    <oauthTokenEndpoint>https://comcastbusiness.my.salesforce.com/services/oauth2/token?so=00D50000000NOBy</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <salesforceLoginUrl>https://comcastbusiness.my.salesforce.com?so=00D50000000NOBy</salesforceLoginUrl>
+    <samlEntityId>https://comcastbusiness.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDEDCCAfigAwIBAgIGAVyoFQqJMA0GCSqGSIb3DQEBCwUAMEkxCzAJBgNVBAYTAlVTMRAwDgYDVQQKEwdDb21jYXN0MQwwCgYDVQQLEwNzc28xGjAYBgNVBAMTEUNvbWNhc3RFbnRlcnByaXNlMB4XDTE3MDYxNDE5MjkzMFoXDTIyMDYxMzE5MjkzMFowSTELMAkGA1UEBhMCVVMxEDAOBgNVBAoTB0NvbWNhc3QxDDAKBgNVBAsTA3NzbzEaMBgGA1UEAxMRQ29tY2FzdEVudGVycHJpc2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCTZrQogeKnAMgeqXnMtkP0OHcKJNMsbAUZsYMZwiljXKThbnOi3CU8ggCu7nfe4S2dHCSSWJwIYb4AjGwVWzV3odel05PcN1cJhGPlvUD1Hg02PvlX8HNUjbb10o1gYUVSazs0MgWecoe4NICPMCqobnCg8lO0vktQBgXN3Yx8ycofim0NOGCzGCUDLUZ6JugGiDc9M4HWr4l+5zlRv0R5VQa7QxFBjdAqSBEKEVIryXiDFtwNuy024zFwhKJlbbRdolChzqbD2ayebZ5ayWSADanlvQURJ4QUu6rk1LBzKHlg8jRC6PpRywAO2NJDmZG6kpnhEE+Fm27pgmcwk2dXAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFy9tfGwLvHoTu5oRqC1c15QOmQY1xhCiIiLIQd7oM27h2356HqQkMLsJ5w9Cy0y5zdy/nQbhpzChf7wpljp0u0mKIkGyVHrklEFx31awqFIscQ+6V1QEIh4T1FJiadhhC6Q+FfBz3BDdqVJwPNr5R+4LxeWYUxHt8bmDN+NX0jTKfTxI1VzcKlGg6jcfDkQZgLOgy/w6tOHHGjN1IPgt2d1zIKabcCcPEy+JQhjeHeUUUffIltUC9asGu/o4ZithSWPlnR+RXWD7vB5lMIhSGU/tJrLwOhn3AWMoDphKLV4j5lP+hrEC5wLWqXPVwg6p2RD/yTTQf8gwqgFKSFaLyE=</validationCert>
+</SamlSsoConfig>

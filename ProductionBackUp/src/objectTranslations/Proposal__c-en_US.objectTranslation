@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proposal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Proposals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amdocs Account Id --></label>
+        <name>Amdocs_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amdocs Proposal Id --></label>
+        <name>Amdocs_Proposal_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By User --></label>
+        <name>Created_By_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current --></label>
+        <name>Current__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incremental MRC --></label>
+        <name>Incremental_MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRC --></label>
+        <name>MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- NRC --></label>
+        <name>NRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Proposals and Agreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Site Count --></label>
+        <name>Site_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved internally</masterLabel>
+            <translation><!-- Approved internally --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Approval Rules Completed</masterLabel>
+            <translation><!-- Internal Approval Rules Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending internal approval</masterLabel>
+            <translation><!-- Pending internal approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending internal approval Rules</masterLabel>
+            <translation><!-- Pending internal approval Rules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by customer</masterLabel>
+            <translation><!-- Rejected by customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected internally</masterLabel>
+            <translation><!-- Rejected internally --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to customer</masterLabel>
+            <translation><!-- Sent to customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Term Unit --></label>
+        <name>Term_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated By User --></label>
+        <name>Updated_By_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- concat --></label>
+        <name>concat__c</name>
+    </fields>
+    <fields>
+        <label><!-- proposalcustom --></label>
+        <name>proposalcustom__c</name>
+    </fields>
+    <layouts>
+        <layout>Proposal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

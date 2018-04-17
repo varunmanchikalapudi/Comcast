@@ -1,0 +1,1 @@
+New Lead has with ID: {!Lead.Id} has been Assigned to {!Lead.OwnerFullName}

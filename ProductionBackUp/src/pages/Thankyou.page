@@ -1,0 +1,51 @@
+<apex:page showheader="false" sidebar="false" standardController="Lead"   >
+ <apex:pageBlock >
+ <apex:pageBlockSection title="WebToLeads">
+         
+             
+        </apex:pageBlockSection>
+        </apex:pageBlock>
+ 
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body>
+<apex:image value="https://lh5.googleusercontent.com/-D7zKCtJ2AWw/AAAAAAAAAAI/AAAAAAAAAHQ/iaYxpo52eO4/s0-c-k-no-ns/photo.jpg" styleClass="logo" />
+<div  id="centerDiv" class="centerDiv">
+
+
+<center> 
+<h1>
+Thank You</h1>
+<p>Your Application has been Submitted</p>
+</center>
+</div>
+
+</body>
+</html>
+<!-- CSS -->
+  <style>
+   .centerDiv{
+  width: 800px;
+  border-radius: 5px;
+  background: #ccc;
+  padding: 10px;
+  height: 50px;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -400px;
+  top: 50%;
+  left: 50%;
+}
+   
+    .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  margin-top: -186px;
+    margin-left: -110px;
+}
+  </style>
+</apex:page>

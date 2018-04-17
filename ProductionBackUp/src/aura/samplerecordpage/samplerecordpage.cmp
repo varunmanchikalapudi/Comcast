@@ -1,0 +1,29 @@
+<aura:component implements="lightning:actionOverride,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" controller="CanvasPraposalCnt"  >   
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="OppJSONPeram" type="string"  /> 
+    <aura:attribute name="recordId" type="Id" /> 
+     <aura:attribute name="cssStyle" type="String" />
+    <div class="slds-button" style="width: 390px">    
+        <ui:button label="SQO"  press="{!c.openmodal}"  />    
+    </div>
+    <div role="dialog" tabindex="-1" aria-labelledby="header43" aura:id="Modalbox" class="slds-modal slds-modal_large">        
+        <div class="slds-modal__container" style="width:1050px;padding:6rem 0;height:107%">
+          <div class="slds-modal__header">    
+                  <h2 class="slds-text-heading--medium" style="line-height:0.25">AMDOCS SQO</h2>
+            </div> 
+            <div class="slds-modal__content slds-p-around--medium" > 
+                <div class="container">
+                    
+                    <div aura:id="amdocsAppDiv"> {!v.body}</div>  
+                     <style>
+        {!v.cssStyle}
+    </style>
+                </div>                 
+            </div>
+            <div class="slds-modal__footer">
+                <ui:button label="close" press="{!c.closeModal}"  />
+            </div>
+        </div>
+    </div>
+    <div class="slds-backdrop" aura:id="Modalbackdrop"></div>
+</aura:component>
